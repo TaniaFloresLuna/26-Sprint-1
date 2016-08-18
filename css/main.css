@@ -50,12 +50,12 @@ header label:hover{
 	margin: 3% 7%;
 }
 .bl-fon2{
-	background-color: #000;
+	background: rgba(44, 46, 28, 0.8);
 	background-repeat: no-repeat;
-	opacity: 0.9;
 	width: 70%;
 	height: 250px;
 	margin: 10% 15%;
+	position: absolute;
 }
 .pd-5{
 	padding: 5%;
@@ -95,7 +95,11 @@ form{
 	font-family: 'Courgette';
 	color: yellow;
 }
-
+/*blanco*/
+.text-white{
+	color: white;
+	}
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
@@ -109,7 +113,7 @@ form{
 	.menu{
 		position: absolute;
 		width: 30%;
-		margin-left: -200%;
+		margin-top: -2000%;
 	}
 	.menu ul{
 		flex-direction: column;
@@ -123,6 +127,9 @@ form{
 	.logo{
 		width: 70%;
 
+	}
+	.fondo-image{
+		height: 350px;
 	}
 
 }
